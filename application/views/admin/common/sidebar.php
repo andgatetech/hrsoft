@@ -49,7 +49,7 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item start active open">
-                                        <a href="index.html" class="nav-link ">
+                                        <a href="#" class="nav-link ">
                                             <i class="icon-bar-chart"></i>
                                             <span class="title">Home</span>
                                             <span class="selected"></span>
@@ -59,14 +59,12 @@
                                         <a href="#" class="nav-link ">
                                             <i class="icon-bulb"></i>
                                             <span class="title">HR Dashboard</span>
-                                            <span class="badge badge-success">1</span>
                                         </a>
                                     </li>
                                     <li class="nav-item start ">
                                         <a href="#" class="nav-link ">
                                             <i class="icon-graph"></i>
                                             <span class="title">Organogram</span>
-                                            <span class="badge badge-danger">5</span>
                                         </a>
                                     </li>
                                 </ul>
