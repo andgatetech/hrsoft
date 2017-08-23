@@ -82,159 +82,20 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="ui_metronic_grid.html" class="nav-link ">
-                                            <span class="title">Metronic Grid System</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Companies</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="ui_colors.html" class="nav-link ">
-                                            <span class="title">Color Library</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Stations</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="ui_general.html" class="nav-link ">
-                                            <span class="title">General Components</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Departments</span>
                                         </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_buttons.html" class="nav-link ">
-                                            <span class="title">Buttons</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_buttons_spinner.html" class="nav-link ">
-                                            <span class="title">Spinner Buttons</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_confirmations.html" class="nav-link ">
-                                            <span class="title">Popover Confirmations</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_sweetalert.html" class="nav-link ">
-                                            <span class="title">Bootstrap Sweet Alerts</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_icons.html" class="nav-link ">
-                                            <span class="title">Font Icons</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_socicons.html" class="nav-link ">
-                                            <span class="title">Social Icons</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_typography.html" class="nav-link ">
-                                            <span class="title">Typography</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_tabs_accordions_navs.html" class="nav-link ">
-                                            <span class="title">Tabs, Accordions & Navs</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_timeline.html" class="nav-link ">
-                                            <span class="title">Timeline 1</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_timeline_2.html" class="nav-link ">
-                                            <span class="title">Timeline 2</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_timeline_horizontal.html" class="nav-link ">
-                                            <span class="title">Horizontal Timeline</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_tree.html" class="nav-link ">
-                                            <span class="title">Tree View</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="javascript:;" class="nav-link nav-toggle">
-                                            <span class="title">Page Progress Bar</span>
-                                            <span class="arrow"></span>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item ">
-                                                <a href="ui_page_progress_style_1.html" class="nav-link "> Flash </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="ui_page_progress_style_2.html" class="nav-link "> Big Counter </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_blockui.html" class="nav-link ">
-                                            <span class="title">Block UI</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_bootstrap_growl.html" class="nav-link ">
-                                            <span class="title">Bootstrap Growl Notifications</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_notific8.html" class="nav-link ">
-                                            <span class="title">Notific8 Notifications</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_toastr.html" class="nav-link ">
-                                            <span class="title">Toastr Notifications</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_bootbox.html" class="nav-link ">
-                                            <span class="title">Bootbox Dialogs</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_alerts_api.html" class="nav-link ">
-                                            <span class="title">Metronic Alerts API</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_session_timeout.html" class="nav-link ">
-                                            <span class="title">Session Timeout</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_idle_timeout.html" class="nav-link ">
-                                            <span class="title">User Idle Timeout</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_modals.html" class="nav-link ">
-                                            <span class="title">Modals</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_extended_modals.html" class="nav-link ">
-                                            <span class="title">Extended Modals</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_tiles.html" class="nav-link ">
-                                            <span class="title">Tiles</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_datepaginator.html" class="nav-link ">
-                                            <span class="title">Date Paginator</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="ui_nestable.html" class="nav-link ">
-                                            <span class="title">Nestable List</span>
-                                        </a>
-                                    </li>
+                                    </li> 
                                 </ul>
                             </li>
                             <li class="nav-item  ">
@@ -245,110 +106,38 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="components_date_time_pickers.html" class="nav-link ">
-                                            <span class="title">Date & Time Pickers</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Dashboard</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="components_color_pickers.html" class="nav-link ">
-                                            <span class="title">Color Pickers</span>
-                                            <span class="badge badge-danger">2</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Screening</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="components_select2.html" class="nav-link ">
-                                            <span class="title">Select2 Dropdowns</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Job Request</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="components_bootstrap_select.html" class="nav-link ">
-                                            <span class="title">Bootstrap Select</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Job Post</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="components_multi_select.html" class="nav-link ">
-                                            <span class="title">Bootstrap Multiple Select</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Job Candidates</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="components_bootstrap_multiselect_dropdown.html" class="nav-link ">
-                                            <span class="title">Bootstrap Multiselect Dropdowns</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Job Test</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="components_bootstrap_select_splitter.html" class="nav-link ">
-                                            <span class="title">Select Splitter</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_clipboard.html" class="nav-link ">
-                                            <span class="title">Clipboard</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_typeahead.html" class="nav-link ">
-                                            <span class="title">Typeahead Autocomplete</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_bootstrap_tagsinput.html" class="nav-link ">
-                                            <span class="title">Bootstrap Tagsinput</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_bootstrap_switch.html" class="nav-link ">
-                                            <span class="title">Bootstrap Switch</span>
-                                            <span class="badge badge-success">6</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_bootstrap_maxlength.html" class="nav-link ">
-                                            <span class="title">Bootstrap Maxlength</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_bootstrap_fileinput.html" class="nav-link ">
-                                            <span class="title">Bootstrap File Input</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_bootstrap_touchspin.html" class="nav-link ">
-                                            <span class="title">Bootstrap Touchspin</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_form_tools.html" class="nav-link ">
-                                            <span class="title">Form Widgets & Tools</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_context_menu.html" class="nav-link ">
-                                            <span class="title">Context Menu</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_editors.html" class="nav-link ">
-                                            <span class="title">Markdown & WYSIWYG Editors</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_code_editors.html" class="nav-link ">
-                                            <span class="title">Code Editors</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_ion_sliders.html" class="nav-link ">
-                                            <span class="title">Ion Range Sliders</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_noui_sliders.html" class="nav-link ">
-                                            <span class="title">NoUI Range Sliders</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item  ">
-                                        <a href="components_knob_dials.html" class="nav-link ">
-                                            <span class="title">Knob Circle Dials</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Job Interviews</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -362,76 +151,72 @@
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
                                         <a href="form_controls.html" class="nav-link ">
-                                            <span class="title">Bootstrap Form
-                                                <br>Controls</span>
+                                            <span class="title">Dashboard</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_controls_md.html" class="nav-link ">
-                                            <span class="title">Material Design
-                                                <br>Form Controls</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Employees</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
                                         <a href="form_validation.html" class="nav-link ">
-                                            <span class="title">Form Validation</span>
+                                            <span class="title">Onboarding</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_validation_states_md.html" class="nav-link ">
-                                            <span class="title">Material Design
-                                                <br>Form Validation States</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Contract</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_validation_md.html" class="nav-link ">
-                                            <span class="title">Material Design
-                                                <br>Form Validation</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Assignments</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_layouts.html" class="nav-link ">
-                                            <span class="title">Form Layouts</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Transfers</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_repeater.html" class="nav-link ">
-                                            <span class="title">Form Repeater</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Resignations</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_input_mask.html" class="nav-link ">
-                                            <span class="title">Form Input Mask</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Achievements</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_editable.html" class="nav-link ">
-                                            <span class="title">Form X-editable</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Travels</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_wizard.html" class="nav-link ">
-                                            <span class="title">Form Wizard</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Promotions</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_icheck.html" class="nav-link ">
-                                            <span class="title">iCheck Controls</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Complaints</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_image_crop.html" class="nav-link ">
-                                            <span class="title">Image Cropping</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Warnings</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_fileupload.html" class="nav-link ">
-                                            <span class="title">Multiple File Upload</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Terminations</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_dropzone.html" class="nav-link ">
-                                            <span class="title">Dropzone File Upload</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Employee Exit</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -444,28 +229,38 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="elements_steps.html" class="nav-link ">
-                                            <span class="title">Steps</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Dashboard</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="elements_lists.html" class="nav-link ">
-                                            <span class="title">Lists</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Scheduler</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="elements_ribbons.html" class="nav-link ">
-                                            <span class="title">Ribbons</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Attendance</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="elements_overlay.html" class="nav-link ">
-                                            <span class="title">Overlays</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Employee Hour</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="elements_cards.html" class="nav-link ">
-                                            <span class="title">User Cards</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Leaves</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Work Shift</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Holiday</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -478,54 +273,34 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="table_static_basic.html" class="nav-link ">
-                                            <span class="title">Basic Tables</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Dashboard</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="table_static_responsive.html" class="nav-link ">
-                                            <span class="title">Responsive Tables</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Salary</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="table_bootstrap.html" class="nav-link ">
-                                            <span class="title">Bootstrap Tables</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Bonus</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="javascript:;" class="nav-link nav-toggle">
-                                            <span class="title">Datatables</span>
-                                            <span class="arrow"></span>
+                                        <a href="#" class="nav-link nav-toggle">
+                                            <span class="title">Commisions</span>
                                         </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_managed.html" class="nav-link "> Managed Datatables </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_buttons.html" class="nav-link "> Buttons Extension </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_colreorder.html" class="nav-link "> Colreorder Extension </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_rowreorder.html" class="nav-link "> Rowreorder Extension </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_scroller.html" class="nav-link "> Scroller Extension </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_fixedheader.html" class="nav-link "> FixedHeader Extension </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_responsive.html" class="nav-link "> Responsive Extension </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_editable.html" class="nav-link "> Editable Datatables </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="table_datatables_ajax.html" class="nav-link "> Ajax Datatables </a>
-                                            </li>
-                                        </ul>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="#" class="nav-link nav-toggle">
+                                            <span class="title">Provident Fund</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="#" class="nav-link nav-toggle">
+                                            <span class="title">Advance Salary</span>
+                                        </a>
                                     </li>
                                 </ul>
                             </li>
@@ -537,51 +312,39 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="charts_amcharts.html" class="nav-link ">
-                                            <span class="title">amChart</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">HR Reports</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="charts_flotcharts.html" class="nav-link ">
-                                            <span class="title">Flot Charts</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Recruitment Reports</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="charts_flowchart.html" class="nav-link ">
-                                            <span class="title">Flow Charts</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Employee Reports</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="charts_google.html" class="nav-link ">
-                                            <span class="title">Google Charts</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Timesheet Reports</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="charts_echarts.html" class="nav-link ">
-                                            <span class="title">eCharts</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Payroll Reports</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="charts_morris.html" class="nav-link ">
-                                            <span class="title">Morris Charts</span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Training Reports</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="javascript:;" class="nav-link nav-toggle">
-                                            <span class="title">HighCharts</span>
-                                            <span class="arrow"></span>
+                                        <a href="#" class="nav-link ">
+                                            <span class="title">Graph</span>
                                         </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item ">
-                                                <a href="charts_highcharts.html" class="nav-link "> HighCharts </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="charts_highstock.html" class="nav-link "> HighStock </a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a href="charts_highmaps.html" class="nav-link "> HighMaps </a>
-                                            </li>
-                                        </ul>
                                     </li>
                                 </ul>
                             </li>                           

@@ -21,7 +21,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <head>
         <meta charset="utf-8" />
-        <title>Falcon | Admin Dashboard</title>
+        <title>HR SOFT | Admin Dashboard</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta content="Preview page of Metronic Admin Theme #1 for statistics, charts, recent events and reports" name="description" />
@@ -80,21 +80,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <span>Dashboard</span>
                                 </li>
                             </ul>
-                            <div class="page-toolbar">
-                                <div id="dashboard-report-range" class="pull-right tooltips btn btn-sm"
-                                     data-container="body" data-placement="bottom"
-                                     data-original-title="Change dashboard date range">
-                                    <i class="icon-calendar"></i>&nbsp;
-                                    <span class="thin uppercase hidden-xs"></span>&nbsp;
-                                    <i class="fa fa-angle-down"></i>
-                                </div>
-                            </div>
                         </div>
                         <!-- END PAGE BAR -->
                         <!-- BEGIN PAGE TITLE-->
-                        <h1 class="page-title"> Demo Layout
-                            <small>statistics, charts, recent events and reports</small>
-                        </h1>
+                        <h1 class="page-title">Employee</h1>
                         <!-- END PAGE TITLE-->
                         <!-- END PAGE HEADER-->
 						

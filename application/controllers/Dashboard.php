@@ -21,7 +21,7 @@ class Dashboard extends CI_Controller {
 	public function index()
 	{
 
-		$this->renderLayout();
+		$this->renderLayout(null, 'employee_info');
 
 	}
 
