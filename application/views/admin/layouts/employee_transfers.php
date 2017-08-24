@@ -1,11 +1,11 @@
-<div class="row">
+<div class="row" id="employee-transfers">
     <div class="col-md-12">
         <!-- BEGIN EXAMPLE TABLE PORTLET-->
         <div class="portlet light bordered">
             <div class="portlet-title">
                 <div class="caption font-dark">
                     <i class="icon-settings font-dark"></i>
-                    <span class="caption-subject bold uppercase"> Promotions </span>
+                    <span class="caption-subject bold uppercase"> Transfers </span>
                 </div>
             </div>
             <div class="portlet-body">
@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="btn-group">
-                                <button id="sample_editable_1_new" class="btn sbold green"> Add New
+                                <button id="add-new-transfer" class="btn sbold green"> Add New
                                     <i class="fa fa-plus"></i>
                                 </button>
                             </div>
@@ -45,52 +45,40 @@
                     <thead>
                         <tr>
                             <th> Employee Name </th>
-                            <th> Promotion Title </th>
-                            <th> Promotion Date </th>
+                            <th> Transfer Date </th>
+                            <th> Transfer to (Department)</th>
+                            <th> Transfer to (Station)</th>
                             <th> Approval Status </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="odd gradeX">
-                            <td> shuxer </td>
-                            <td>
-                                <a href="mailto:shuxer@gmail.com"> shuxer@gmail.com </a>
-                            </td>
+                            <td> Md Khorshed Alam </td>
                             <td class="center"> 12 Jan 2012 </td>
+                            <td> Engineering </td>
+                            <td> Administration </td>
                             <td>
                                 <span class="label label-sm label-success"> Approved </span>
                             </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td> shuxer </td>
-                            <td>
-                                <a href="mailto:shuxer@gmail.com"> shuxer@gmail.com </a>
-                            </td>
+                            <td> Md Khorshed Alam </td>
                             <td class="center"> 12 Jan 2012 </td>
+                            <td> Engineering </td>
+                            <td> Administration </td>
                             <td>
-                                <span class="label label-sm label-warning"> Suspended </span>
+                                <span class="label label-sm label-warning"> Rejected </span>
                             </td>
                         </tr>
                         <tr class="odd gradeX">
-                            <td> shuxer </td>
-                            <td>
-                                <a href="mailto:shuxer@gmail.com"> shuxer@gmail.com </a>
-                            </td>
+                            <td> Md Khorshed Alam </td>
                             <td class="center"> 12 Jan 2012 </td>
+                            <td> Engineering </td>
+                            <td> Administration </td>
                             <td>
                                 <span class="label label-sm label-success"> Approved </span>
                             </td>
                         </tr>
-                        <tr class="odd gradeX">
-                            <td> shuxer </td>
-                            <td>
-                                <a href="mailto:shuxer@gmail.com"> shuxer@gmail.com </a>
-                            </td>
-                            <td class="center"> 12 Jan 2012 </td>
-                            <td>
-                                <span class="label label-sm label-warning"> Suspended </span>
-                            </td>
-                        </tr>												
                     </tbody>
                 </table>
             </div>

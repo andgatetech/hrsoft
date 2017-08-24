@@ -64,7 +64,7 @@
                                     <i class="fa fa-circle"></i>
                                 </li>
                                 <li>
-                                    <span>Dashboard</span>
+                                    <span class="page-breadcrumb-title">Dashboard</span>
                                 </li>
                             </ul>
                         </div>
@@ -74,11 +74,15 @@
                         <!-- END PAGE TITLE-->
                         <!-- END PAGE HEADER-->
 						
-						<!-- INCLUDE LAYOUT -->
-						   <?php 
-							//get layout name
-                           isset($layout)? include_once('layouts/'.$layout.'.php'): null;
-						   ?>
+			<!-- INCLUDE LAYOUT -->
+			 <?php 
+			//get layout name
+                            if(isset($layouts)){
+                                foreach($layouts as $layout){
+                                    include_once('layouts/'.$layout.'.php');
+                                }
+                            }
+			?>
 					   <!--/ INCLUDE LAYOUT -->
 					</div>
                  <!-- END CONTENT BODY -->
@@ -698,6 +702,11 @@
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         <script src="<?php echo base_url().ASSETS; ?>/global/scripts/app.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url().ASSETS; ?>/global/scripts/app.nav.js" type="text/javascript"></script>
+        <script src="<?php echo base_url().ASSETS; ?>/global/scripts/app.employee.onboarding.js" type="text/javascript"></script>
+        <script src="<?php echo base_url().ASSETS; ?>/global/scripts/app.employee.promotion.js" type="text/javascript"></script>
+        <script src="<?php echo base_url().ASSETS; ?>/global/scripts/app.employee.transfer.js" type="text/javascript"></script>
+        <script src="<?php echo base_url().ASSETS; ?>/global/scripts/app.employee.achievement.js" type="text/javascript"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN PAGE LEVEL SCRIPTS -->
         <script src="<?php echo base_url().ASSETS; ?>/pages/scripts/dashboard.min.js" type="text/javascript"></script>

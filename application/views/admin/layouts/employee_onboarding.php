@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" id="employee-onboarding">
     <div class="col-md-12">
         <div class="tabbable-line boxless tabbable-reversed">
             <ul class="nav nav-tabs">
@@ -42,7 +42,7 @@
                         </div>
                         <div class="portlet-body form">
                             <!-- BEGIN FORM-->
-                            <form action="#" class="form-horizontal">
+                            <form name="employee-info-form" class="form-horizontal">
                                 <div class="form-body">
                                     <h3 class="form-section">Basic Info</h3>
                                     <div class="form-group">
@@ -168,7 +168,7 @@
                                 <div class="form-actions">
                                     <div class="row">
                                         <div class="col-md-offset-3 col-md-9">
-                                            <button type="submit" class="btn btn-circle green">Submit</button>
+                                            <button type="button" id="employee-info-save" class="btn btn-circle green">Save</button>
                                             <button type="button" class="btn btn-circle grey-salsa btn-outline">Cancel</button>
                                         </div>
                                     </div>

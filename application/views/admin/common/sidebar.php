@@ -148,7 +148,7 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="form_controls.html" class="nav-link ">
+                                        <a href="#" class="nav-link ">
                                             <span class="title">Dashboard</span>
                                         </a>
                                     </li>
@@ -158,8 +158,8 @@
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="form_validation.html" class="nav-link ">
-                                            <span class="title">Onboarding</span>
+                                        <a href="#" class="nav-link " >
+                                            <span class="title" id="menu-onboarding">Onboarding</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
@@ -174,7 +174,7 @@
                                     </li>
                                     <li class="nav-item  ">
                                         <a href="#" class="nav-link ">
-                                            <span class="title">Transfers</span>
+                                            <span class="title" id="menu-transfers">Transfers</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
@@ -184,7 +184,7 @@
                                     </li>
                                     <li class="nav-item  ">
                                         <a href="#" class="nav-link ">
-                                            <span class="title">Achievements</span>
+                                            <span class="title" id="menu-achievements">Achievements</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
@@ -194,7 +194,7 @@
                                     </li>
                                     <li class="nav-item  ">
                                         <a href="#" class="nav-link ">
-                                            <span class="title">Promotions</span>
+                                            <span class="title" id="menu-promotions">Promotions</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">

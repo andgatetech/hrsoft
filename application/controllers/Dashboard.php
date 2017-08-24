@@ -20,13 +20,20 @@ class Dashboard extends CI_Controller {
 	 */
 	public function index()
 	{
-
-		$this->renderLayout(null, 'employee_promotion');
-
+                $layouts = array(
+                    'employee_onboarding',
+                    'employee_transfers',
+                    'employee_transfer_information',
+                    'employee_promotions',
+                    'employee_promotion_information',
+                    'employee_achievements',
+                    'employee_achievement_information'
+                );
+		$this->renderLayout(null, $layouts);
 	}
 
-	private function renderLayout($data = null, $layout=null){
-		$data['layout'] = $layout; //manadory
+	private function renderLayout($data = null, $layouts=null){
+		$data['layouts'] = $layouts; //manadory
 		$this->load->view('admin/index', $data);
 	}
 
