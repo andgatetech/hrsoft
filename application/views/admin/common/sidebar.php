@@ -148,72 +148,72 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/dashboard");?>" class="nav-link ">
                                             <span class="title">Dashboard</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/employeeList");?>" class="nav-link ">
                                             <span class="title">Employees</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link " >
+                                        <a href="<?php echo base_url("employee/onboarding");?>" class="nav-link " >
                                             <span class="title" id="menu-onboarding">Onboarding</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/contract");?>" class="nav-link ">
                                             <span class="title">Contract</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/assignments");?>" class="nav-link ">
                                             <span class="title">Assignments</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/transfers");?>" class="nav-link ">
                                             <span class="title" id="menu-transfers">Transfers</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/resignations");?>" class="nav-link ">
                                             <span class="title">Resignations</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/achievements");?>" class="nav-link ">
                                             <span class="title" id="menu-achievements">Achievements</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/travels");?>" class="nav-link ">
                                             <span class="title">Travels</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/promotions");?>" class="nav-link ">
                                             <span class="title" id="menu-promotions">Promotions</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/complaints");?>" class="nav-link ">
                                             <span class="title">Complaints</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/warnings");?>" class="nav-link ">
                                             <span class="title">Warnings</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/terminations");?>" class="nav-link ">
                                             <span class="title">Terminations</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("employee/exit");?>" class="nav-link ">
                                             <span class="title">Employee Exit</span>
                                         </a>
                                     </li>
