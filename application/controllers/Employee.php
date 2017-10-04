@@ -24,6 +24,7 @@ class Employee extends CI_Controller {
     }
     public function employeeList() {
         $data['employees'] = $this->employee_model->get_all_entries();
+        //print_r($data['employees']);die;
         $layouts = array(
             'employee/list'
         );

@@ -58,27 +58,39 @@
                     <thead>
                         <tr>
                             <th> Employee Name </th>
-                            <th> Designation </th>
-                            <th> Department</th>
+                            <th> Station </th>
+                            <th> Department </th>
+                            <th> Type </th>
+                            <th> Category</th>
+                            <th> Designation</th>
                             <th> Joining Date</th>
                             <th> Approval Status </th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
-                        if(isset($employees)){
-                            foreach ($employees as $employee){
-                        ?>
-                        <tr class="odd gradeX">
-                            <td> <?php echo $employee->first_name." ".$employee->last_name;?> </td>
-                            <td> <?php echo $employee->designation_id; ?> </td>
-                            <td> <?php echo $employee->department_id; ?> </td>
-                            <td> <?php echo $employee->created_at; ?> </td>
-                            <td>
-                                <span class="label label-sm label-warning"> <?php echo $employee->status; ?> </span>
-                            </td>
-                        </tr>
-                        <?php
+                        if (isset($employees)) {
+                            foreach ($employees as $employee) {
+                                ?>
+                                <tr class="odd gradeX">
+                                    <td> <?php echo $employee->first_name . " " . $employee->last_name; ?> </td>
+                                    <td> <?php echo $employee->station; ?> </td>
+                                    <td> <?php echo $employee->department; ?> </td>
+                                    <td> <?php echo $employee->type; ?> </td>
+                                    <td> <?php echo $employee->category; ?> </td>
+                                    <td> <?php echo $employee->designation; ?> </td>
+                                    <td> <?php echo $employee->created_at; ?> </td>
+                                    <td>           
+                                        <?php
+                                        if ($employee->status == 1) {
+                                            echo "<span class=\"label label-sm label-info\">Approved</span>";
+                                        } elseif ($employee->status == 0) {
+                                            echo "<span class=\"label label-sm label-warning\">Pending</span>";
+                                        }
+                                        ?>  
+                                    </td>
+                                </tr>
+                                <?php
                             }
                         }
                         ?>
