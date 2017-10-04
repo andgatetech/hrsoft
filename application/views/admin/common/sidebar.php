@@ -40,7 +40,7 @@
                                 </form>
                                 <!-- END RESPONSIVE QUICK SEARCH FORM -->
                             </li>
-                            <li class="nav-item start active open">
+                            <li class="nav-item">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
                                     <span class="title">Dashboard</span>
@@ -140,7 +140,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item  ">
+                            <li class="nav-item start active open">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-settings"></i>
                                     <span class="title">Employees</span>
