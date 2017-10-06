@@ -56,7 +56,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item start ">
-                                        <a href="#" class="nav-link ">
+                                        <a href="<?php echo base_url("dashboard/hr");?>" class="nav-link ">
                                             <i class="icon-bulb"></i>
                                             <span class="title">HR Dashboard</span>
                                         </a>

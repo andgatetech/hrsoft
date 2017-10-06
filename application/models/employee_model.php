@@ -94,6 +94,7 @@ inner join grade on grade.id = employee.grade_id;
 
         $this->db->insert('employee', $this);
     }
+    
 
     public function update_entry() {
         $this->name = $_POST['name'];

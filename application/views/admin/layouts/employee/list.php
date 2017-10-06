@@ -54,7 +54,7 @@
                         ?>
                     </div>
                 </div>
-                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="tbl-employee-list">
                     <thead>
                         <tr>
                             <th> Employee Name </th>

@@ -22,4 +22,36 @@ class Dashboard extends CI_Controller {
         );
         renderLayout(null, $layouts, "Dashboard");
     }
+    public function pieChartDataEmployeMaleToFeMale() {
+        $data['employees'] = $this->employee_model->get_all_entries();
+        $data = array();
+        $data[0] = array(
+                        "label" => "Male",
+                        "data" => 60
+                      );
+           $data[1] = array(
+                        "label" => "Female",
+                        "data" => 40
+                      );
+ 
+        echo json_encode($data);
+    }
+    public function pieChartDataEmployeByAgeGroup() {
+        $data['employees'] = $this->employee_model->get_all_entries();
+        $data = array();
+        $data[0] = array(
+                        "label" => "21-30",
+                        "data" => 60
+                      );
+           $data[1] = array(
+                        "label" => "31-40",
+                        "data" => 30
+                      );
+           $data[2] = array(
+                        "label" => "41-50",
+                        "data" => 10
+                      );
+ 
+        echo json_encode($data);
+    }
 }

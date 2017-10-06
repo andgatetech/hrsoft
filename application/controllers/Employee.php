@@ -16,12 +16,21 @@ class Employee extends CI_Controller {
         $this->load->model("work_shift_model");
         $this->load->model("employee_model");
     }
+    public function index(){
+        $this->dashboard();
+    }
+    /**
+     * Menu Item: Dashboard
+     */
     public function dashboard() {
         $layouts = array(
             'employee/dashboard'
         );
         renderLayout(null, $layouts, "Dashboard");
     }
+    /**
+     * Menu Item: Employee LIst
+     */
     public function employeeList() {
         $data['employees'] = $this->employee_model->get_all_entries();
         //print_r($data['employees']);die;
@@ -30,42 +39,63 @@ class Employee extends CI_Controller {
         );
         renderLayout($data, $layouts, "Employee");
     }
+    /**
+     * Menu Item: Employee On boarding
+     */
     public function onboarding() {
         $layouts = array(
             'employee/onboarding'
         );
         renderLayout(null, $layouts, "Onboarding");
     }
+    /**
+     * Menu Item: Employee Contract
+     */
     public function contract() {
         $layouts = array(
             'employee/contract'
         );
         renderLayout(null, $layouts, "Contract");
     }
+    /**
+     * Menu Item: Employee Assignment
+     */
     public function assignments() {
         $layouts = array(
             'employee/assignments'
         );
         renderLayout(null, $layouts, "Assignments");
     }
+    /**
+     * Menu Item: Transfers
+     */
     public function transfers() {
         $layouts = array(
             'employee/transfers'
         );
         renderLayout(null, $layouts,"Transfers");
     }
+    /**
+     * Menu Item: Resignations
+     */
     public function resignations() {
         $layouts = array(
             'employee/resignations'
         );
         renderLayout(null, $layouts,"Resignations");
     }
+    /**
+     * Menu Item: Achievements
+     */
     public function achievements() {
         $layouts = array(
             'employee/achievements'
         );
         renderLayout(null, $layouts, "Achievements");
     }
+    /**
+     * Menu Item: Travels
+     */
     public function travels() {
         $layouts = array(
             'employee/travels'
