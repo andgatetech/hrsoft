@@ -169,11 +169,11 @@ class Employee extends CI_Controller {
      * GRAPH DATA: TOTAL EMPLOYEE
      */
     public function donatChartDataTotalEmployee() {
-        $data['employees'] = $this->employee_model->get_all_entries();
+        $employees = $this->employee_model->getTotalEmployee("all");
         $data = array(
-            "count" => array("50"),
+            "count" => array($employees[0]->total),
             "datasets" => array(array(
-                    "data" => array(50),
+                    "data" => array($employees[0]->total),
                     "backgroundColor" => array("#FF6384"),
                     "hoverBackgroundColor" => array("#FF6384")
                 ))
@@ -185,13 +185,13 @@ class Employee extends CI_Controller {
      * GRAPH DATA: TOTAL EMPLOYEE
      */
     public function donatChartDataActiveEmployee() {
-        $data['employees'] = $this->employee_model->get_all_entries();
+        $employees = $this->employee_model->getTotalEmployee("active");
         $data = array(
-            "count" => array("40"),
+            "count" => array($employees[0]->total),
             "datasets" => array(array(
-                    "data" => array(40),
-                    "backgroundColor" => array("#235660"),
-                    "hoverBackgroundColor" => array("#235660")
+                    "data" => array($employees[0]->total),
+                    "backgroundColor" => array("#FF6384"),
+                    "hoverBackgroundColor" => array("#FF6384")
                 ))
         );
         echo json_encode($data);
@@ -202,13 +202,13 @@ class Employee extends CI_Controller {
      * @return json json data
      */
     public function donatChartDataInActiveEmployee() {
-        $data['employees'] = $this->employee_model->get_all_entries();
+         $employees = $this->employee_model->getTotalEmployee("inactive");
         $data = array(
-            "count" => array("70"),
+            "count" => array($employees[0]->total),
             "datasets" => array(array(
-                    "data" => array(1000),
-                    "backgroundColor" => array("#2c2f30"),
-                    "hoverBackgroundColor" => array("#2c2f30")
+                    "data" => array($employees[0]->total),
+                    "backgroundColor" => array("#FF6384"),
+                    "hoverBackgroundColor" => array("#FF6384")
                 ))
         );
         echo json_encode($data);

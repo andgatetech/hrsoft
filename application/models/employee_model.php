@@ -94,13 +94,34 @@ inner join grade on grade.id = employee.grade_id;
 
         $this->db->insert('employee', $this);
     }
-    
-
     public function update_entry() {
         $this->name = $_POST['name'];
         $this->status = $_POST['status'];
 
         $this->db->update('employee', $this, array('id' => $_POST['id']));
+    }
+    public function getTotalEmployee($status){
+        switch($status){
+            case "active":
+                $sql = "select count(*) as total from employee where status= 1";
+                break;
+            case "inactive":
+                $sql = "select count(*) as total from employee where status = 0";
+                break;
+            default:
+                $sql = "select count(*) as total from employee";
+                break;
+        }
+        
+        $query = $this->db->query($sql);
+        //$query = $this->db->get("employee");
+        return $query->result();
+    }
+    public function getTotalEmployeeByGender($gender){
+        $sql = "select count(*) as total from employee where gender = '".$gender."'";
+        $query = $this->db->query($sql);
+        //$query = $this->db->get("employee");
+        return $query->result();
     }
 
 }
