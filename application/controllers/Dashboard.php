@@ -36,6 +36,11 @@ class Dashboard extends CI_Controller {
  
         echo json_encode($data);
     }
+    /**
+     * GRAPH EMPLOYEE BY AGE GROUP
+     * Get all employee by age group
+     * @return json json data
+     */
     public function pieChartDataEmployeByAgeGroup() {
         $data['employees'] = $this->employee_model->get_all_entries();
         $data = array();
@@ -54,7 +59,11 @@ class Dashboard extends CI_Controller {
  
         echo json_encode($data);
     }
-    // GRAPH EMPLOYEEBY TYPES
+    /**
+     *  GRAPH EMPLOYEE BY TYPES
+     * Get all employee by type
+     * @return json json data 
+     */
     public function pieChartDataEmployeByTypes() {
         $data['employees'] = $this->employee_model->get_all_entries();
         $data = array();
@@ -73,7 +82,11 @@ class Dashboard extends CI_Controller {
  
         echo json_encode($data);
     }
-    // GRAPH EMPLOYEEBY TYPES
+    /**
+     *  GRAPH EMPLOYEEBY TYPES
+     * Get all employee by Category
+     * @return json json data 
+     */
     public function pieChartDataEmployeByCategories() {
         $data['employees'] = $this->employee_model->get_all_entries();
         $data = array();
