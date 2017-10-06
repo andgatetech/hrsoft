@@ -10,7 +10,6 @@
             <div class="portlet-body">
 <!--                <h4>Labels can be hidden if the slice is less than a given percentage of the pie (10% in this case).</h4>-->
                 <div id="pie_chart_male_to_female" class="chart"> </div>
-<!--                <div id="pie_chart_7" class="chart"> </div>-->
             </div>
         </div>
     </div>

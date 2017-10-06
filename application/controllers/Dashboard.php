@@ -54,4 +54,42 @@ class Dashboard extends CI_Controller {
  
         echo json_encode($data);
     }
+    // GRAPH EMPLOYEEBY TYPES
+    public function pieChartDataEmployeByTypes() {
+        $data['employees'] = $this->employee_model->get_all_entries();
+        $data = array();
+        $data[0] = array(
+                        "label" => "Regular Employees",
+                        "data" => 70
+                      );
+           $data[1] = array(
+                        "label" => "Project Employees",
+                        "data" => 10
+                      );
+           $data[2] = array(
+                        "label" => "Support Employees",
+                        "data" => 20
+                      );
+ 
+        echo json_encode($data);
+    }
+    // GRAPH EMPLOYEEBY TYPES
+    public function pieChartDataEmployeByCategories() {
+        $data['employees'] = $this->employee_model->get_all_entries();
+        $data = array();
+        $data[0] = array(
+                        "label" => "Management",
+                        "data" => 50
+                      );
+           $data[1] = array(
+                        "label" => "Professional",
+                        "data" => 120
+                      );
+           $data[2] = array(
+                        "label" => "Technical",
+                        "data" => 10
+                      );
+ 
+        echo json_encode($data);
+    }
 }

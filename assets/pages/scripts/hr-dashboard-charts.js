@@ -19,7 +19,7 @@ var ChartsFlotcharts = function () {
 //            };
 
             // GRAPH; MALE TO FEMALE
-            $.ajax({//create an ajax request to load_page.php
+            $.ajax({
                 type: "GET",
                 url: "http://localhost/hrsoft/dashboard/pieChartDataEmployeMaleToFeMale",
                 contentType: "application/json; charset=utf-8",
@@ -44,7 +44,7 @@ var ChartsFlotcharts = function () {
                 }
             });
             // GRAPH EMPLOYEE BY AGE GROUP
-            $.ajax({//create an ajax request to load_page.php
+            $.ajax({
                 type: "GET",
                 url: "http://localhost/hrsoft/dashboard/pieChartDataEmployeByAgeGroup",
                 contentType: "application/json; charset=utf-8",
@@ -52,6 +52,58 @@ var ChartsFlotcharts = function () {
                 success: function (data) {
                     if ($('#pie_chart_by_age_group').size() !== 0) {
                         $.plot($("#pie_chart_by_age_group"), data, {
+                            series: {
+                                pie: {
+                                    show: true,
+                                    combine: {
+                                        color: '#999',
+                                        threshold: 0.1
+                                    }
+                                }
+                            },
+                            legend: {
+                                show: false
+                            }
+                        });
+                    }
+                }
+            });
+            
+             // GRAPH EMPLOYEE BY TYPES
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/hrsoft/dashboard/pieChartDataEmployeByTypes",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if ($('#pie_chart_by_types').size() !== 0) {
+                        $.plot($("#pie_chart_by_types"), data, {
+                            series: {
+                                pie: {
+                                    show: true,
+                                    combine: {
+                                        color: '#999',
+                                        threshold: 0.1
+                                    }
+                                }
+                            },
+                            legend: {
+                                show: false
+                            }
+                        });
+                    }
+                }
+            });
+            
+             // GRAPH EMPLOYEE BY CATEGORIES
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/hrsoft/dashboard/pieChartDataEmployeByCategories",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if ($('#pie_chart_by_categories').size() !== 0) {
+                        $.plot($("#pie_chart_by_categories"), data, {
                             series: {
                                 pie: {
                                     show: true,
