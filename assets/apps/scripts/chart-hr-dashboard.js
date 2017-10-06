@@ -68,8 +68,8 @@ var ChartsFlotcharts = function () {
                     }
                 }
             });
-            
-             // GRAPH EMPLOYEE BY TYPES
+
+            // GRAPH EMPLOYEE BY TYPES
             $.ajax({
                 type: "GET",
                 url: "http://localhost/hrsoft/dashboard/pieChartDataEmployeByTypes",
@@ -94,8 +94,8 @@ var ChartsFlotcharts = function () {
                     }
                 }
             });
-            
-             // GRAPH EMPLOYEE BY CATEGORIES
+
+            // GRAPH EMPLOYEE BY CATEGORIES
             $.ajax({
                 type: "GET",
                 url: "http://localhost/hrsoft/dashboard/pieChartDataEmployeByCategories",
@@ -120,7 +120,68 @@ var ChartsFlotcharts = function () {
                     }
                 }
             });
+
+            // DONUT: TOTAL EMPLOYEE
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/hrsoft/employee/donatChartDataTotalEmployee",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if ($('#donat_chart_total_employee').size() !== 0) {
+                        $.plot($("#donat_chart_total_employee"), data, {
+                            series: {
+                                pie: {
+                                    innerRadius: 0.8,
+                                    show: true
+                                }
+                            }
+                        });
+                    }
+                }
+            });
             
+            // DONUT: ACTIVE EMPLOYEE
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/hrsoft/employee/donatChartDataActiveEmployee",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if ($('#donat_chart_active_employee').size() !== 0) {
+                        $.plot($("#donat_chart_active_employee"), data, {
+                            series: {
+                                pie: {
+                                    innerRadius: 0.8,
+                                    show: true
+                                }
+                            }
+                        });
+                    }
+                }
+            });
+            
+            // DONUT: INACTIVE EMPLOYEE
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/hrsoft/employee/donatChartDataInActiveEmployee",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if ($('#donat_chart_inactive_employee').size() !== 0) {
+                        $.plot($("#donat_chart_inactive_employee"), data, {
+                            series: {
+                                pie: {
+                                    innerRadius: 0.8,
+                                    show: true
+                                }
+                            }
+                        });
+                    }
+                }
+            });
+
+
         },
     };
 }();

@@ -689,6 +689,7 @@
         <script src="<?php echo base_url() . ASSETS; ?>/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
         <script src="<?php echo base_url() . ASSETS; ?>/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
         <script src="<?php echo base_url() . ASSETS; ?>/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url() . ASSETS; ?>/global/plugins/Chart.bundle.js"></script>
 
         
         <script src="<?php echo base_url() . ASSETS; ?>/global/plugins/flot/jquery.flot.pie.min.js" type="text/javascript"></script>
@@ -707,7 +708,8 @@
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN PAGE LEVEL SCRIPTS -->
         <script src="<?php echo base_url() . ASSETS; ?>/pages/scripts/dashboard.min.js" type="text/javascript"></script>
-        <script src="<?php echo base_url() . ASSETS; ?>/pages/scripts/hr-dashboard-charts.js" type="text/javascript"></script>
+        <script src="<?php echo base_url() . ASSETS; ?>/apps/scripts/chart-hr-dashboard.js" type="text/javascript"></script>
+        <script src="<?php echo base_url() . ASSETS; ?>/apps/scripts/chart-employee-dashboard.js" type="text/javascript"></script>
                 
         <!-- END PAGE LEVEL SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
