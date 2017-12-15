@@ -8,15 +8,30 @@ class UnitTest extends CI_Controller {
         parent::__construct();
         $this->load->library('unit_test');
     }
+    public function index(){
+        $this->testGetTotalEmployee();
+        $this->testGetInactiveEmployee();
+        echo $this->unit->report();
+    }
 
-    public function getAllEmployee() {
+    public function testGetTotalEmployee() {
         $test = 1 + 1;
 
         $expected_result = 2;
 
         $test_name = 'Get Total Employee';
 
-        echo $this->unit->run($test, $expected_result, $test_name);
+        $this->unit->run($test, $expected_result, $test_name);
+        
+    }
+    public function testGetInactiveEmployee() {
+        $test = 1 + 1;
+
+        $expected_result = 2;
+
+        $test_name = 'Get Inactive Employee';
+
+        $this->unit->run($test, $expected_result, $test_name);
     }
 
 }
